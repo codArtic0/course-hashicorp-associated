@@ -1,0 +1,16 @@
+#Arquivos de estado (state)
+*.tfstate
+*.tfstate.*
+
+#Arquivos de ambiente (Environment)
+.env
+*.tfvars
+*.auto.tfvars
+*.tfvars.json
+
+# Cache Local (Providers)
+.terraform/
+
+# Arquivos de log do Terraform
+*.log
+crash.log
