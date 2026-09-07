@@ -14,7 +14,7 @@ provider "aws" {
     tags = {
       owner      = "codartic0"
       managed-by = "terraform"
-      Project    = "create-sg"
+      Project    = "section4"
     }
   }
 }

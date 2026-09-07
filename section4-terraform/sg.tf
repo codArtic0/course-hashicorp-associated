@@ -1,7 +1,7 @@
 resource "aws_security_group" "security_group" {
   name        = "Allow HTTP"
   description = "Allow all HTTP inbound traffic"
-  vpc_id = var.vpc_id
+  vpc_id      = var.vpc_id
 
   tags = {
     Name = "httpdemosg"
